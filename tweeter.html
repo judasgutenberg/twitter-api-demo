@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   		<script type="text/javascript" src="tweeter.js" ></script>
+   		<script type="text/javascript">
+	  
+	  	/////////////////////////////////////////////////////////
+		//frontend for a twitter post searcher and reply frontend
+		//with infinite scroll
+		//gus mueller, march 26 2016
+		/////////////////////////////////////////////////////////
+		var tweets;
+		//details on how to word a search: https://dev.twitter.com/rest/public/search
+		var searchString = 'vegan OR vegetarian';
+		var viewedTwitterIds = new Array();
+		
+		getMoreTweets(searchString);
+	
+	  </script>
+	  
+	  <link rel="stylesheet" href="tweeter.css"/>
+   </head>
+   
+   <body>
+   		<div class='content'>
+   			<h2>TWEETS ABOUT "<script type="text/javascript">document.write(searchString);</script>"</h2>
+      		<div id='list'/>
+			
+	  	</div>
+		<button class='more_tweets' onclick='getMoreTweets(searchString)'>Get More Tweets</button>
+   </body>
+</html>

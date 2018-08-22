@@ -1,0 +1,113 @@
+ body
+ {
+ 	font-family: helvetica;
+ 	margin: auto;
+ }
+ 
+ .content
+ {
+ 	width: 1000px;
+	margin: auto;
+ }
+ 
+ .tweet
+ {
+ 	margin: auto;
+ 	margin-bottom: 20px;
+	padding: 10px;
+	width: 800px;
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #999999; 
+	border-radius: 4px;
+ }
+ 
+ .date
+ {
+ 	font-size: 10px;
+	font-style: italic;
+ }
+ 
+ .user
+ {
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+ 
+ .tweet_body
+ {
+ 	background-color: #f0f0f0;
+	margin: 5px;
+	padding: 5px;
+	font-size: 14px;
+ 	border-width: 1px; 
+	border-style: solid; 
+	border-color: #cccccc; 
+	border-radius: 4px;
+ }
+ 
+ .post_text_area
+ {
+ 	width: 300px;
+	height: 60px;
+ }
+ 
+
+.respond_button_div
+{
+	float: right;
+	margin-right: 420px;
+	margin-top: 45px;
+}
+
+.tally
+{
+	font-size: 9px;
+	color: #999999;
+	 
+}
+
+.more_tweets
+{
+	margin-left: 450px;
+}
+
+button
+{
+	border-radius: 4px;
+	background-color: #666655;
+	color: #ffffff;
+	border: none;
+	margin: 5px;
+}
+
+button.respond
+{
+	background-color: #ff0000;
+}
+
+button.respond:hover
+{
+	background-color: #006600;
+	color: #ffffff;
+}
+
+
+button:hover 
+{
+	background-color: #cccc99;
+	color: #000000;
+}
+
+textarea
+{
+	border-radius: 4px;
+	border-color: #ff0000; 
+}
+
+h2
+{
+	color: #999988;
+	letter-spacing: 0.3em;
+ 
+}
