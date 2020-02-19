@@ -5,4 +5,4 @@ I wrote this as a code challenge in March of 2016. It doesn't use any code frame
 
 Consider this software completely license-free and public domain.
 
-Shout out to Jonathan Skinner, who devised this exercise as part of the job interview process at Mercy For Animals (back before that place was ravaged by ayahuasca).
+Shout out to Johnathan Skinner, who devised this exercise as part of the job interview process at Mercy For Animals (back before that place was ravaged by ayahuasca).
